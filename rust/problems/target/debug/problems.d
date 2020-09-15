@@ -1,0 +1,1 @@
+C:\Users\Leitocorazon\Documents\repositories\codewars_problems\rust\problems\target\debug\problems.exe: C:\Users\Leitocorazon\Documents\repositories\codewars_problems\rust\problems\src\main.rs C:\Users\Leitocorazon\Documents\repositories\codewars_problems\rust\problems\src\rbg_to_hex.rs
