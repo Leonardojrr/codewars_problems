@@ -4,9 +4,7 @@
 // mod rbg_to_hex;
 // mod last_digit_of_large_number;
 // mod path_finder;
-mod trailing_zeros;
-
-use trailing_zeros::trailing_zeros;
+// mod trailing_zeros;
 
 fn main() {
     print!("{}", trailing_zeros(118));

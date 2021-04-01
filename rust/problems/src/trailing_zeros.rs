@@ -1,3 +1,5 @@
+// Kata: https://www.codewars.com/kata/52f787eb172a8b4ae1000a34/solutions/rust
+
 pub fn trailing_zeros(n: u128) -> u32 {
     if n < 5 {
         return 0;
