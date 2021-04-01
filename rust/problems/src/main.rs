@@ -3,19 +3,11 @@
 // mod printer_errors;
 // mod rbg_to_hex;
 // mod last_digit_of_large_number;
-mod path_finder;
+// mod path_finder;
+mod trailing_zeros;
 
-use path_finder::path_finder;
+use trailing_zeros::trailing_zeros;
 
 fn main() {
-    path_finder(
-        "\
-            ......\n\
-            ......\n\
-            ......\n\
-            ......\n\
-            ......\n\
-            ......\
-            ",
-    );
+    print!("{}", trailing_zeros(118));
 }
