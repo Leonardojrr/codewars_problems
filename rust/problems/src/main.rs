@@ -6,8 +6,7 @@
 // mod path_finder;
 // mod trailing_zeros;
 // mod largest_index_difference;
-//mod simplifying_multilinear_polynomials;
+// mod simplifying_multilinear_polynomials;
+// mod sort_binary_tree_by_levels;
 
-fn main() {
-    print!("{}", simplify("-8fk+5kv-4yk+7kf-qk+yqv-3vqy+4ky+4kf+yvqkf"));
-}
+fn main() {}
