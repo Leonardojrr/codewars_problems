@@ -8,5 +8,6 @@
 // mod largest_index_difference;
 // mod simplifying_multilinear_polynomials;
 // mod sort_binary_tree_by_levels;
+// mod validate_sudoku;
 
 fn main() {}
