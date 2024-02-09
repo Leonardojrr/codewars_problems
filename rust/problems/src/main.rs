@@ -9,5 +9,9 @@
 // mod simplifying_multilinear_polynomials;
 // mod sort_binary_tree_by_levels;
 // mod validate_sudoku;
+mod number_of_proper_fractions;
+use crate::number_of_proper_fractions::proper_fractions;
 
-fn main() {}
+fn main() {
+    print!("{}", proper_fractions(u64::MAX));
+}
