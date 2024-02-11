@@ -9,9 +9,10 @@
 // mod simplifying_multilinear_polynomials;
 // mod sort_binary_tree_by_levels;
 // mod validate_sudoku;
-mod number_of_proper_fractions;
-use crate::number_of_proper_fractions::proper_fractions;
+// mod number_of_proper_fractions;
+mod probabilities_sums_dice;
+use crate::probabilities_sums_dice::rolldice_sum_prob;
 
 fn main() {
-    print!("{}", proper_fractions(u64::MAX));
+    print!("{:?}", rolldice_sum_prob(11, 2));
 }
