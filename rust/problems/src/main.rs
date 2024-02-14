@@ -10,9 +10,10 @@
 // mod sort_binary_tree_by_levels;
 // mod validate_sudoku;
 // mod number_of_proper_fractions;
-mod probabilities_sums_dice;
-use crate::probabilities_sums_dice::rolldice_sum_prob;
+// mod probabilities_sums_dice;
+mod alphabetic_anagrams;
+use crate::alphabetic_anagrams::list_position;
 
 fn main() {
-    print!("{:?}", rolldice_sum_prob(11, 2));
+    print!("{}", list_position("IMMUNOELECTROPHORETICALLY"));
 }
